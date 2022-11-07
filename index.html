@@ -1,9 +1,104 @@
+<!DOCTYPE html>
+
 <html>
- 
-<body>
-  <h1>Frosty</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Company Homepage</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="images/logo.svg" class="logo">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#socials">Socials</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+          <div class="cbox"></div>
+          <h2>RED : <br>Thunder</h2>
+          <p>Open Source, Easily Manageable, Top-Notch,<br> Out of this World, Cloud Solutions</p>
+          <button type="button">See Pricing <img src="images/arrow.png"></button>
+        </div>
+        <div class="col-2">
+          <img src="images/space.svg" class="cloud">
+        </div>
+      </div>
+
+      <div class="next">
+        <a href="#pricing"><img src="images/add.png"></a>
+      </div>
+
+    </div>
+
+    <div class="container pricing" id="pricing">
+      <div class="row">
+        <div class="col-1">
+          <h2>Plan Pricing</h2>
+        </div>
+        <div class="col-2">
+
+          <div class="card">
+            <div class="cbox"></div>
+            <div class="imgBx">
+              <img src="images/free.svg">
+            </div>
+            <div class="packagename">
+              <h2>Free</h2>
+            </div>
+            <div class="contentBx">
+              <h2>£0.<small>00</small></h2>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cbox"></div>
+            <div class="imgBx">
+              <img src="images/premium.png">
+            </div>
+            <div class="packagename">
+              <h2>Premium</h2>
+            </div>
+            <div class="contentBx">
+              <h2>£7.<small>99</small></h2>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="whitecbox"></div>
+            <div class="cbox"></div>
+            <div class="imgBx">
+              <img src="images/diamond.svg">
+            </div>
+            <div class="packagename">
+              <h2>Deluxe</h2>
+            </div>
+            <div class="contentBx">
+              <h2>£24.<small>99</small></h2>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+      
+    </div>
+    <div class="social-links" id="socials">
+      <a href="#"><img src="images/instagram.svg"></a>
+      <a href="#"><img src="images/github.svg"></a>
+      <a href="#"><img src="images/discord.svg"></a>
+    </div>
+  </body>
 </html>
